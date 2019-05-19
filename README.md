@@ -18,10 +18,18 @@ First of all, you need:
 Secondly, simply follow the instructions and get your **Youtube API Key**: https://developers.google.com/youtube/v3/getting-started
 
 Next, you need to format `bot.hs` file with your tokens, IDs, etc.
-* <img src="https://imgur.com/oN2ISTE" title="replace channelId value">
-* ![image](https://imgur.com/8XOqCXx "paste your youtube api key here").
-* ![image](https://imgur.com/Zf9Zu53 "in such cases paste discord channel id").
-* ![image](https://imgur.com/WEQ0GiK "your bot token").
+
+* Replace channelId value.
+ ![image](images/youtube-channel-id.png "replace channelId value")
+
+* Paste your **Youtube API Key** here.
+ ![image](images/youtube-api.png "paste your youtube api key here")
+  
+*  In such cases paste Discord **CHANNEL ID**.
+ ![image](images/discord-channel-id.png "in such cases paste discord channel id").
+ 
+* Your bot token
+ ![image](images/bot-token.png "your bot token").
 
 ## I'M TOO LAZY TO KEEP THESE IDS IN SEPARATE PLACE FOR CONVENIENCE! ##
 
