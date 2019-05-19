@@ -1,6 +1,6 @@
 # Discord Bot with the Power of Haskell #
 
-Simple youtube notification bot from one selected channel written in haskell with the use of discord-haskell library. Every hour bot requests youtube channel and get if of the latest video from this channel, keeps id in *lastsent.txt*.
+Simple youtube notification bot from one selected channel written in haskell with the use of discord-haskell library. Every hour bot requests youtube channel and get the latest video from this channel, keeps id in *lastsent.txt*.
 
 Libraries used to create this:
 * **discord-haskell** 
