@@ -54,7 +54,7 @@ queryYoutube = do
   res <- httpLbs request manager
   let decoded = liftM items . decode . responseBody $ res
   return $ case decoded of
-    Nothing -> Just "parse error"
+    Nothing -> Just "parse error" -- i think it's funny
     Just items -> extractVideoId (Just items)
 
 extractVideoId :: Maybe [IdContainer] -> Maybe String
