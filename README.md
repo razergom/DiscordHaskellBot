@@ -1,4 +1,4 @@
-# Discord Bot with the power of Haskell #
+# Discord Bot with the Power of Haskell #
 
 Simple youtube notification bot from one selected channel written in haskell with the use of discord-haskell library.
 
