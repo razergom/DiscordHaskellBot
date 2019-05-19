@@ -8,7 +8,7 @@ Libraries used to create this:
 * **Aeson** (JSON parsing)
 
 ### Run the bot ###
-So, you installed all these libraries (Hello, cabal-hell) and want to run this bot for fun.
+So, you installed all these libraries (Hello, cabal hell) and want to run this bot for fun.
 First of all, you need:
 * Create application at https://discordapp.com/developers/applications/.
 * Add a bot in bot menu and grab the **TOKEN ID**.
