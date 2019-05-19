@@ -3,8 +3,8 @@
 Simple youtube notification bot from one selected channel written in haskell with the use of discord-haskell library.
 
 Libraries used to create this:
-* **discord-haskell** (http - queries)
-* **http-conduit** (http - queries)
+* **discord-haskell** 
+* **http-conduit** (https - queries)
 * **Aeson** (JSON parsing)
 
 ### Run the bot ###
