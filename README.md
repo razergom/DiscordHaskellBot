@@ -20,15 +20,19 @@ Secondly, simply follow the instructions and get your **Youtube API Key**: https
 Next, you need to format `bot.hs` file with your tokens, IDs, etc.
 
 * Replace channelId value.
+
  ![image](images/youtube-channel-id.png "replace channelId value")
 
 * Paste your **Youtube API Key** here.
+
  ![image](images/youtube-api.png "paste your youtube api key here")
   
 *  In such cases paste Discord **CHANNEL ID**.
+
  ![image](images/discord-channel-id.png "in such cases paste discord channel id").
  
 * Your bot token
+
  ![image](images/bot-token.png "your bot token").
 
 ## I'M TOO LAZY TO KEEP THESE IDS IN SEPARATE PLACE FOR CONVENIENCE! ##
