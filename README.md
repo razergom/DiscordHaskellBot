@@ -35,7 +35,7 @@ Next, you need to format `bot.hs` file with your tokens, IDs, etc.
 
  ![image](images/bot-token.png "your bot token").
 
-** I'M TOO LAZY TO KEEP THESE IDS IN SEPARATE PLACE FOR CONVENIENCE! **
+**I'M TOO LAZY TO KEEP THESE IDS IN SEPARATE PLACE FOR CONVENIENCE!**
 
 To get Discord **CHANNEL ID** enable **Developer Mode** in Discord Settings, click right-click on chat channel you want and click **copy id**.
 
