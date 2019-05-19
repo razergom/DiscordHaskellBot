@@ -49,7 +49,7 @@ instance FromJSON ItemContainer
 queryYoutube :: IO (Maybe String)
 queryYoutube = do
   initReq <- parseRequest "https://www.googleapis.com/youtube/v3/search"
-  let request = setQueryString [("part", Just "snippet"), ("channelId", Just "UC6cqazSR6CnVMClY0bJI0Lg"), ("maxResults", Just "1"), ("order", Just "date"), ("type", Just "video"), ("key", Just "<youtube api key>")] initReq -- OH SHIT SO LONG STRING EMAE
+  let request = setQueryString [("part", Just "snippet"), ("channelId", Just "UC6cqazSR6CnVMClY0bJI0Lg"), ("maxResults", Just "1"), ("order", Just "date"), ("type", Just "video"), ("key", Just "<youtube api key>")] initReq -- OH SHIT SO LONG STRING, I want to add some text to make it even more longer, hehehehehheheheh
   manager <- newManager tlsManagerSettings
   res <- httpLbs request manager
   let decoded = liftM items . decode . responseBody $ res
